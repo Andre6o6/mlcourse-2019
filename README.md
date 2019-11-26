@@ -19,6 +19,7 @@
 Собственно задача - есть матрица рейтингов User-Item, по кросс-валидации бьем её на фолды, 
 затем пытаемся предсказать скрытые рейтинги. Качество проверяем по RMSE, только для тех точек в которых прогноз есть.
 Используем факторизационную машину 2-го порядка с квадратичной функцией потерь (аналогично линейной регрессии).
+
 https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf
 
 [**Код** ](Task2.ipynb)
@@ -35,7 +36,7 @@ https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf
 * [Обучение сети на данных слоях (автоэнкодер реализовывать не нужно)](https://github.com/yandexdataschool/Practical_DL/blob/fall18/_under_construction/homework01/homework_main.ipynb)
 * [Тесты (придется установить Torch)](https://github.com/yandexdataschool/Practical_DL/blob/fall18/_under_construction/homework01/homework_test_modules.ipynb)
 
-2) Применить ваш фреймворк для задачи классификации циферок, датасет MNIST(http://yann.lecun.com/exdb/mnist/), построить график изменения loss(а лучше еще дополнительно и accuracy) в зависимости от эпохи. (вытяните каждую картинку в вектор, а каждую меточку y сделайте one hot вектором).
+2) Применить ваш фреймворк для задачи классификации циферок, датасет [MNIST](http://yann.lecun.com/exdb/mnist/), построить график изменения loss(а лучше еще дополнительно и accuracy) в зависимости от эпохи. (вытяните каждую картинку в вектор, а каждую меточку y сделайте one hot вектором).
 
 [**Код** ](Task3/)
 
